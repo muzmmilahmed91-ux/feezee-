@@ -1,0 +1,163 @@
+.header{
+    display: flex;
+    border-radius:50px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #E0FA63;
+    margin: 0 40px;
+    color: #11704B;
+    
+}  
+.header a{
+    color: #11704B;
+    text-decoration: dashed;
+}
+.btn a{
+    margin: 0 20px;
+}
+
+.btn-a a{
+    background-color:#1F794D;
+    color: #E0FA63;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 1.5px 4px 0 0 #004d51;
+
+}
+body{
+    background-color: #1F794D;
+}
+.headen{
+    color: aliceblue;
+    align-items: center;
+    font-size: 35px;
+
+}
+.par{
+    color: aliceblue;
+}
+.btn a{
+    border-radius: 50px;
+    box-shadow: 1.5px 4px 0 0 #004d51;
+    background-color: #E0FA63;
+    color: #1F794D;
+}   
+.btn a{
+    margin: 20px;
+    border-radius: 50px;    
+    padding: 10px;
+    text-decoration: none;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    left: 1100px;
+    top: 500px;
+}
+.icon img{
+    
+  animation:
+    stickerIn 0.8s ease-out,
+    floatSticker 3s ease-in-out 0.8s infinite;
+}
+
+@keyframes stickerIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotate(-15deg);
+  }
+
+  70% {
+    opacity: 1;
+    transform: scale(1.08) rotate(-3deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(-5deg);
+  }
+}
+
+@keyframes floatSticker {
+  0%, 100% {
+    transform: translateY(0) rotate(-5deg);
+  }
+
+  50% {
+    transform: translateY(-10px) rotate(-2deg);
+  }
+}
+
+.headen img{
+  animation:
+    stickerIn 0.8s ease-out,
+    floatSticker 3s ease-in-out 0.8s infinite;
+}
+
+@keyframes stickerIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotate(-15deg);
+  }
+
+  70% {
+    opacity: 1;
+    transform: scale(1.08) rotate(-3deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(-5deg);
+  }
+}
+
+@keyframes floatSticker {
+  0%, 100% {
+    transform: translateY(0) rotate(-5deg);
+  }
+
+  50% {
+    transform: translateY(-10px) rotate(-2deg);
+  }
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+.imgtow img{
+    width: 450px;
+    height: 300px;
+    display: flex;
+    position:absolute;
+    top: 670px;
+    left: 500px;
+}
+.img-3 img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    position:absolute;
+    top: 670px;
+    left: 1000px;
+}
+.fastimg img{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    position:absolute;
+    top: 670px;
+    left: 50px;
+}
+.about{
+  background-color: #f6faf8;
+}
